@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.intro{
+    width: 100%;
+    max-width: 1440px;
+    height: 1137px;
+    margin: 0 auto;
+    background: url("../images/BG.png")  no-repeat center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav_line{
+    background: rgba(39, 39, 39, 0.67) no-repeat center;
+}
+.action_nav{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.action_nav a{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.join{
+    width: 199px;
+    color: #000;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 44px;
+    margin-right: 306px;
+}
+.nav_home{
+   font-size: 16px;
+   color:#fff;
+   margin-top: 60px;
+}
+.nav{
+    margin-top: 60px;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+.hero{
+    padding-top: 234px;
+    text-align: center;
+}
+.hero h1{
+    font-size: 80px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.hero h2{
+    font-size: 33px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.hero p{
+    color: #FFFFFF;
+    font-size: 21px;
+    max-width: 500px;
+    margin-left: 460px;
+    margin-bottom: 30px;
+}
+.hero a{
+    width: 238px;
+    height: 62px;
+    background: #0D90C2;
+    color: #fff;
+    padding: 17px 46px 17px 46px;
+}
+.about{
+    width: 100%;
+    max-width: 1440px;
+    height: 910px;
+    margin: 0 auto;
+    background: url("../images/2bd.png")no-repeat center ;
+}
+.cards{
+    position: absolute;
+}
+.cards a{
+    width: 238px;
+    height: 62px;
+    background: #0D90C2;
+    color: #fff;
+    padding: 17px 66px 17px 66px;
+}
+.mem_img{
+    position: absolute;
+    left: 245px;
+    top: -60px;
+}  
+.mem_icon{
+    position: absolute;
+    left: 454px;
+    top: -20px;
+}
+.membership h3{
+    position: absolute;
+    left: 422px;
+    top: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.membership p{
+    position: absolute;
+    font-size: 16px;
+    left: 333px;
+    top: 80px;
+    color: #fff;
+    max-width: 300px;
+    line-height: 160%;
+    text-align: center;
+}
+.mem_btn{
+    position: absolute;
+    left: 360px;
+    top: 180px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 160%;
+}
+.work_img{
+    position: absolute;
+    left: 740px;
+    top: -60px;
+}
+.work_icon{
+    position: absolute;
+    left: 950px;
+    top: -16px;
+}
+.workspace h3{
+    position: absolute;
+    left: 922px;
+    top: 40px;
+    font-size: 18px;
+    color: #fff;
+}
+.workspace p{
+    position: absolute;
+    font-size: 16px;
+    left: 933px;
+    top: 80px;
+    color: #fff;
+}
